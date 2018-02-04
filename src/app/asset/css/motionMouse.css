@@ -1,0 +1,36 @@
+.demo4 {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    height: 700px;
+    position: relative;
+}
+
+.demo4-inner {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+
+.demo4-photo {
+    position: absolute;
+    background-color: lightgray;
+}
+
+footer {
+    padding-top: 2em;
+}
+
+.st1 {
+    fill: none;
+    stroke: #b56498;
+    stroke-width: 7;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
+svg {
+    transform: translateX(-56px);
+    transform:scaleX(-1);
+    transform:scaleY(-1);
+}

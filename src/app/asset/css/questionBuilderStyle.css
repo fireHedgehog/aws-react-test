@@ -1,0 +1,121 @@
+.toolbar-box {
+    position: relative;
+    background-color: white;
+}
+
+.toolbar-box:hover {
+    background-color: #e2ffdb;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 2px;
+    display: none;
+}
+
+.toolbar-box:hover .toolbar {
+    display: block;
+}
+
+hr {
+    height: 1px;
+    margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+
+.hr-warning {
+    background-image: -webkit-linear-gradient(left, rgba(210, 105, 30, .8), rgba(210, 105, 30, .6), rgba(0, 0, 0, 0));
+    height: 2px;
+    margin-left: 25px;
+    margin-top: 3px;
+    margin-bottom: 14px;
+}
+
+.hr-success {
+    background-image: -webkit-linear-gradient(left, rgba(15, 157, 88, .8), rgba(15, 157, 88, .6), rgba(0, 0, 0, 0));
+}
+
+.hr-primary {
+    background-image: -webkit-linear-gradient(left, rgba(66, 133, 244, .8), rgba(66, 133, 244, .6), rgba(0, 0, 0, 0));
+}
+
+.hr-danger {
+    background-image: -webkit-linear-gradient(left, rgba(244, 67, 54, .8), rgba(244, 67, 54, .6), rgba(0, 0, 0, 0));
+}
+
+.hr-dark {
+    background-image: -webkit-linear-gradient(left, rgba(1, 0, 0, .8), rgba(255, 255, 255, .6), rgba(0, 0, 0, 0));
+}
+
+.dropbtn {
+    /*background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;*/
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    text-align : left;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.onGeneralHover :hover{
+    background-color: #c1d9ff
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    margin: 0px 1px 0px 3px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+}

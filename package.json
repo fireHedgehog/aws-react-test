@@ -1,0 +1,42 @@
+{
+  "name": "react-aws-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Rocky",
+  "license": "MIT",
+  "dependencies": {
+    "html-entities": "^1.2.1",
+    "immutability-helper": "^2.6.2",
+    "lodash.range": "^3.2.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-anime": "^2.1.0",
+    "react-dates": "^16.0.2",
+    "react-dnd": "^2.5.4",
+    "react-dnd-html5-backend": "^2.5.4",
+    "react-dom": "^16.2.0",
+    "react-motion": "^0.5.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.2",
+    "react-scripts": "1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
