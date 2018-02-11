@@ -29,6 +29,14 @@ footer {
     stroke-miterlimit: 10;
 }
 
+.stWhite {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
 svg {
     transform: translateX(-56px);
     transform:scaleX(-1);
