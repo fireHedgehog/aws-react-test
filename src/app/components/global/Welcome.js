@@ -17,6 +17,14 @@ export class Welcome extends React.Component {
         this.state = {};
     }
 
+    goToProfile() {
+        //profile
+        //const {history} = this.props;
+        //history.push("/profile");
+        //window.location.href();
+        window.open("http://rockychencv.s3-website-us-west-1.amazonaws.com/", '_blank');
+    }
+
     render() {
 
         return (
@@ -34,7 +42,10 @@ export class Welcome extends React.Component {
                         <div className="earth"></div>
                         <div className="card">
                             <div className="welcome-ufo"></div>
-                            <button className="welcome-button">welcome</button>
+                            <button className="welcome-button"
+                                    onClick={() => this.goToProfile()}>
+                                welcome
+                            </button>
                         </div>
                         <div className="superman"></div>
                     </div>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Route,
     Redirect
 } from "react-router-dom";
@@ -11,11 +11,13 @@ import ShowPPT from "./app/components/global/ShowPPT.jsx";
 import {BallDemo} from "./app/components/global/BallDemo";
 import AnimateTitle from "./app/components/global/AnimateTitle";
 import {Welcome} from "./app/components/global/Welcome";
+import {ProfileContainer} from "./app/components/profile/ProfileContainer";
 
 class App extends Component {
 
 
     render() {
+
         return (
             <Router>
                 <div>
@@ -30,7 +32,13 @@ class App extends Component {
                     <Route path={"/hello"} component={ShowPPT}/>
                     <Route path={"/ball"} component={BallDemo}/>
                     <Route path={"/a"} component={AnimateTitle}/>
-                    <Route path={"/welcome"} component={Welcome}/>
+                    <Route path={"/welcome"}
+                           render={(props) => <Welcome {...props}  />}
+                    />
+                    <Route path={"/profile"}
+                           render={(props) => <ProfileContainer {...props}  />}
+
+                    />
                 </div>
             </Router>
         );
@@ -38,3 +46,6 @@ class App extends Component {
 }
 
 export default App;
+
+
+
